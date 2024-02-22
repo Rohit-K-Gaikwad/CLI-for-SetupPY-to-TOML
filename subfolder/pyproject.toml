@@ -1,0 +1,10 @@
+[build-system]
+requires = [ "setuptools", "wheel",]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+name = "my_package"
+version = "0.1"
+description = "A sample Python package"
+author = "John Doe"
+author_email = "jdoe@example.com"

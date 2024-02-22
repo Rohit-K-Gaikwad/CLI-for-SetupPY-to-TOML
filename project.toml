@@ -1,0 +1,5 @@
+[tool.poetry]
+name = "new"
+version = "2.0.0"
+setup_cont = "from setuptools import setup, find_packages\n\nsetup(\n    name=\"mypackage\",\n    version=\"1.0\",\n    packages=find_packages(),\n    author=\"John Doe\",\n    author_email=\"john.doe@example.com\",\n    description=\"A simple Python package\",\n    url=\"https://github.com/johndoe/mypackage\",\n    classifiers=[\n        \"Programming Language :: Python :: 3\",\n        \"License :: OSI Approved :: MIT License\",\n        \"Operating System :: OS Independent\",\n    ],\n    install_requires=['numpy', 'panda',],\n)\n"
+new = "rohit"

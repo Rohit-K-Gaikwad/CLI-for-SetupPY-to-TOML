@@ -1,0 +1,20 @@
+pyproject_data = {
+                  "build-system": {
+                              "requires":["setuptools >= 15.0"]
+                                    },
+                  "build-backend":"setuptools.build_meta:__legacy__"
+                  },
+   "tool":{
+      "setuptools":{
+         "setup_requires":"metadata"[
+            "setup_requires"
+         ],
+         "install_requires":"metadata"[
+            "install_requires"
+         ],
+         "extras_require":"toml.loads(metadata"[
+            "test_requires"
+         ]")",
+         "entry_points":"dict(line.split(""="") for line in metadata"[
+            "entry_points"
+         ]".split(""\n"") if line)",
